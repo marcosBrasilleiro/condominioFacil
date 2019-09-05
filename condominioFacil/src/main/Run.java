@@ -3,19 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package condominiofacil;
+package main;
 
+import view.ViewLogin;
 /**
  *
  * @author brasileiro
  */
-public class CondominioFacil {
+public class Run {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("oi");
+        
+        ViewLogin telaLogin = new ViewLogin();
+        telaLogin.setVisible(true);
+        telaLogin.setLocationRelativeTo(null);
+        telaLogin.setTitle("Condominio Facil");
+        
     }
     
 }
